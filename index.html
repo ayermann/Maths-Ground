@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/style.css">
+	<title>Maths Ground</title>
+</head>
+<body>
+	<div class="wrapp">
+		<div class="game">
+			<div class="header"><span class="game__name"> Maths Ground</span></div>
+			<div class="game__box">
+				<div class="top__menu">
+	<details><summary><span class="game__mode__choice">Ігри</span></summary>
+		<div class="game__mode multiple" onclick="multipleTask()">Множення</div><br>
+		<div class="game__mode dividing" onclick="dividingTask()">Ділення</div><br>
+		<div class="game__mode excercises" onclick="excercisesTask()">Приклади</div><br>
+	</details>
+	<div class="score">3</div>
+</div>
+	<div class="task">
+		<div class="multiple__task taskM"><span class="task__name">Множення</span><div class="taskDue"></div><input class="answerM answer" placeholder="Введіть відповідь: " type="number"><button onclick="checkAnswerM()" class="checkAnswer checkAnswerM">Перевірити</button><div class="result"></div></div>
+		<div class="dividing__task taskM"><span class="task__name">Ділення</span><div class="taskDue"></div><input class="answerD answer" placeholder="Введіть відповідь: " type="number"><button onclick="checkAnswerD()" class="checkAnswer checkAnswerD">Перевірити</button><div class="result"></div></div>
+		<div class="excercises__task taskM"><span class="task__name">Приклади</span><div class="taskDue"></div><input class="answerE answer" placeholder="Введіть відповідь: " type="number"><button onclick="checkAnswerE()" class="checkAnswer checkAnswerE">Перевірити</button><div class="result"></div></div>
+
+	</div>
+
+			</div>
+	</div>
+	</div>
+	<script src="js/script.js"></script>
+</body>
+</html>
